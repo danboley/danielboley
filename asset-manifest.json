@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/danielboley/static/css/main.073c9b0a.css",
+    "main.js": "/danielboley/static/js/main.8259978f.js",
+    "static/js/787.0d217676.chunk.js": "/danielboley/static/js/787.0d217676.chunk.js",
+    "static/media/logo.svg": "/danielboley/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/danielboley/index.html",
+    "main.073c9b0a.css.map": "/danielboley/static/css/main.073c9b0a.css.map",
+    "main.8259978f.js.map": "/danielboley/static/js/main.8259978f.js.map",
+    "787.0d217676.chunk.js.map": "/danielboley/static/js/787.0d217676.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.8259978f.js"
+  ]
+}
