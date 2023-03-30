@@ -1,4 +1,5 @@
 import { Routes, Route } from "react-router-dom";
+import { useState, useEffect } from "react";
 import Navbar from "./Navbar";
 import Home from './Home';
 import TechProjects from './TechProjects';
@@ -7,6 +8,7 @@ import Skills from "./Skills";
 import Contact from "./Contact";
 
 function App() {
+
   return (
       <div className="App">
         <Navbar />
