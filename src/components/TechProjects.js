@@ -1,66 +1,29 @@
 import React from "react";
+import projectList from "../data/projectList"
+import TechProjCard from "./TechProjCard";
 
 function TechProjects() {
+
+  const projs = projectList.map((project) => {
+    return (
+      <TechProjCard
+      key={project.id}
+      title={project.title}
+      image={project.image}
+      description={project.description}
+      details={project.details}
+      loom={project.loom}
+      github={project.github}
+      created={project.created}
+      />
+    )
+  })
+
   return (
     <div>
       <h1>Technical Projects</h1>
       <div>
-        <img></img>
-        <h2>Strava Clone</h2>
-        <h3>Description</h3>
-        <div>Loom Video</div>
-        <a>Github Link</a>
-        <ul>
-          <li>Proj info</li>
-          <li>Proj info</li>
-          <li>Proj info</li>
-        </ul>
-      </div>
-      <div>
-        <img></img>
-        <h2>PlantSpace</h2>
-        <h3>Description</h3>
-        <div>Loom Video</div>
-        <a>Github Link</a>
-        <ul>
-          <li>Proj info</li>
-          <li>Proj info</li>
-          <li>Proj info</li>
-        </ul>
-      </div>
-      <div>
-        <img></img>
-        <h2>Flatiron Appointments</h2>
-        <h3>Description</h3>
-        <div>Loom Video</div>
-        <a>Github Link</a>
-        <ul>
-          <li>Proj info</li>
-          <li>Proj info</li>
-          <li>Proj info</li>
-        </ul>
-      </div>
-      <div>
-        <img></img>
-        <h2>Halloween App</h2>
-        <h3>Description</h3>
-        <a>Github Link</a>
-        <ul>
-          <li>Proj info</li>
-          <li>Proj info</li>
-          <li>Proj info</li>
-        </ul>
-      </div>
-      <div>
-        <img></img>
-        <h2>Farmers Market Recipe Finder</h2>
-        <h3>Description</h3>
-        <a>Github Link</a>
-        <ul>
-          <li>Proj info</li>
-          <li>Proj info</li>
-          <li>Proj info</li>
-        </ul>
+        {projs}
       </div>
     </div>
   );
