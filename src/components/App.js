@@ -6,6 +6,7 @@ import TechProjects from './TechProjects';
 import About from "./About";
 import Skills from "./Skills";
 import Contact from "./Contact";
+import Footer from "./Footer";
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
           <Route path="skills" element={<Skills />} />
           <Route path="contact" element={<Contact />} />
         </Routes>
+        <Footer />
       </div>
   );
 }

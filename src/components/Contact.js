@@ -8,11 +8,11 @@ function Contact() {
       <h1>Contact Info</h1>
       <h3>Feel free to get connect with me or get in touch</h3>
       <SiLinkedin />
-      <h4>LinkedIn</h4>
+      <h4><a href="https://www.linkedin.com/in/daniel-boley/" target="_blank">LinkedIn</a></h4>
       <MdOutlineEmail />
-      <h4>Email</h4>
+      <h4><a href="mailto:danboley1@gmail.com" target="_blank">Email</a></h4>
       <SiGithub />
-      <h4>GitHub</h4>
+      <h4><a href="https://github.com/danboley" target="_blank">GitHub</a></h4>
     </div>
   )
 }
