@@ -9,9 +9,11 @@ function TechProjCard({ title, image, description, details, loom, github, create
         <h2>{title}</h2>
         <h3>{description}</h3>
         {/* <a href={loom}>Demo</a> */}
+        {loom ? 
         <div>
           <iframe width="420" height="315" src={loom} allow="fullscreen *"></iframe>
-        </div>
+        </div> : null
+        }
         {/* <div>
           <iframe width="420" height="315" src={loom} allow="geolocation"></iframe>
         </div> */}

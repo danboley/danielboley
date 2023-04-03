@@ -2,7 +2,8 @@ import React from "react";
 import { SiJavascript, SiReact, SiRuby, SiRubyonrails, SiRubysinatra, SiHtml5, SiCss3, SiTailwindcss, SiGithub, SiGithubpages, SiPostgresql, SiPostman } from "react-icons/si";
 
 function Skills() {
-  return <div>Skills
+  return <div>
+    <h1>Tech Stack</h1>
     <SiJavascript />
     <SiReact />
     <SiRuby />
