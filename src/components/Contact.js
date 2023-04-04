@@ -4,7 +4,7 @@ import { MdOutlineEmail } from "react-icons/md";
 
 function Contact() {
   return (
-    <div>
+    <div className="my-24">
       <h1>Contact Info</h1>
       <h3>Feel free to get connect with me or get in touch</h3>
       <SiLinkedin />

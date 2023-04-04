@@ -2,7 +2,7 @@ import React from 'react';
 
 function About() {
   return (
-    <div>
+    <div className="my-24">
       <h1>About Me</h1>
       <p>Hello! My name is Daniel Boley and I'm a software engineer, ultramarathoner, dog dad, music enthusiast, list lover, and much more.</p>
       <img src=""></img>

@@ -20,7 +20,7 @@ function TechProjects() {
   })
 
   return (
-    <div>
+    <div className="my-24">
       <h1>Technical Projects</h1>
       <div>
         {projs}
