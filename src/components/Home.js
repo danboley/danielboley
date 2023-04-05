@@ -2,8 +2,8 @@ import React from "react";
 
 function Home() {
   return (
-    <div className="my-36 w-full md:h-screen p-2 items-center">
-      <div className="max-w-screen-xl m-auto md:grid grid-cols-3 py-16 px-2 gap-8">
+    <div className="my-36 w-full md:h-screen sm:p-2 px-2 items-center">
+      <div className="max-w-screen-xl m-auto md:grid grid-cols-3 sm:py-16 px-2 gap-8">
         <div className="pr-8">
           <img
             className="w-full h-auto rounded-full m-4 shadow-xl shadow-gray-400"

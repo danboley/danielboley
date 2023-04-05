@@ -8,8 +8,8 @@ function About() {
   }
 
   return (
-    <div className="my-24 w-full py-4 sm:px-8 px-4">
-      <div className="">
+    <div className="my-24 w-full py-4 items-center sm:px-8 px-4">
+      <div className="max-w-screen-xl m-auto">
         <h1 className="font-bold text-center text-xl md:text-3xl">About Me</h1>
         <p className="text-lg text-center py-4 px-8">
           Howdy! My name is Daniel Boley and I'm a software engineer,
@@ -18,12 +18,12 @@ function About() {
         <h1 className="font-bold text-xl md:text-3xl text-center pt-4">
           My Many Hats...
         </h1>
-        <div className="md:grid grid-cols-3 sm:pt-16 pt-8 sm:pl-16">
+        <div className="md:grid grid-cols-3 sm:pt-16 pt-8 sm:pl-16 items-center">
           <img
-            className="w-full h-auto max-w-xl shadow-xl shadow-gray-400"
+            className="w-full h-auto max-w-xl rounded-xl shadow-xl shadow-gray-400"
             src="https://i.imgur.com/N1nZuDF.jpg"
           ></img>
-          <div className="col-span-2 my-8 mx-8 sm:text-left text-center flex items-center">
+          <div className="col-span-2 my-8 mx-8 sm:text-left text-center flex">
             <div>
               <h2 className="font-bold text-lg sm:pt-0 pt-2">
                 Software Engineer
@@ -38,12 +38,12 @@ function About() {
             </div>
           </div>
         </div>
-        <div className="md:grid grid-cols-3 sm:pt-16 pt-8 sm:pl-16">
+        <div className="md:grid grid-cols-3 sm:pt-16 pt-8 sm:pl-16 items-center">
           <img
-            className="w-full h-auto max-w-xl shadow-xl shadow-gray-400"
+            className="w-full h-auto max-w-xl rounded-xl shadow-xl shadow-gray-400"
             src="https://i.imgur.com/aCpVPAd.jpg"
           ></img>
-          <div className="col-span-2 my-8 mx-8 sm:text-left text-center flex items-center">
+          <div className="col-span-2 my-8 mx-8 sm:text-left text-center flex">
             <div>
               <h2 className="font-bold text-lg sm:pt-0 pt-2">Ultrarunner</h2>
               <p className="sm:pr-16">
@@ -56,12 +56,12 @@ function About() {
             </div>
           </div>
         </div>
-        <div className="md:grid grid-cols-3 sm:pt-16 pt-8 sm:pl-16">
+        <div className="md:grid grid-cols-3 sm:pt-16 pt-8 sm:pl-16 items-center">
           <img
-            className="w-full h-auto max-w-xl shadow-xl shadow-gray-400"
+            className="w-full h-auto max-w-xl rounded-xl shadow-xl shadow-gray-400"
             src="https://i.imgur.com/PZDxxqS.jpg"
           ></img>
-          <div className="col-span-2 my-8 mx-8 sm:text-left text-center flex items-center">
+          <div className="col-span-2 my-8 mx-8 sm:text-left text-center flex">
             <div>
               <h2 className="font-bold text-lg sm:pt-0 pt-2">Dog Dad</h2>
               <p className="sm:pr-16">
@@ -71,12 +71,12 @@ function About() {
             </div>
           </div>
         </div>
-        <div className="md:grid grid-cols-3 sm:pt-16 pt-8 sm:pl-16">
+        <div className="md:grid grid-cols-3 sm:pt-16 pt-8 sm:pl-16 items-center">
           <img
-            className="w-full h-auto max-w-xl shadow-xl shadow-gray-400"
+            className="w-full h-auto max-w-xl rounded-xl shadow-xl shadow-gray-400"
             src="https://i.imgur.com/OycLvsK.jpg"
           ></img>
-          <div className="col-span-2 my-8 mx-8 sm:text-left text-center flex items-center">
+          <div className="col-span-2 my-8 mx-8 sm:text-left text-center flex">
             <div>
               <h2 className="font-bold text-lg sm:pt-0 pt-2">
                 Music Enthusiast
@@ -90,12 +90,12 @@ function About() {
             </div>
           </div>
         </div>
-        <div className="md:grid grid-cols-3 sm:pt-16 pt-8 sm:pl-16">
+        <div className="md:grid grid-cols-3 sm:pt-16 pt-8 sm:pl-16 items-center">
           <img
-            className="w-full h-auto max-w-xl shadow-xl shadow-gray-400"
+            className="w-full h-auto max-w-xl rounded-xl shadow-xl shadow-gray-400"
             src="https://i.imgur.com/FUofp2T.jpg"
           ></img>
-          <div className="col-span-2 my-8 mx-8 sm:text-left text-center flex items-center">
+          <div className="col-span-2 my-8 mx-8 sm:text-left text-center flex">
             <div>
               <h2 className="font-bold text-lg sm:pt-0 pt-2">List Lover</h2>
               <p className="sm:pr-16">
