@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/danielboley/static/css/main.41b0fb27.css",
-    "main.js": "/danielboley/static/js/main.8c34da22.js",
+    "main.css": "/danielboley/static/css/main.2f734cdd.css",
+    "main.js": "/danielboley/static/js/main.aaef6736.js",
     "static/js/787.0d217676.chunk.js": "/danielboley/static/js/787.0d217676.chunk.js",
     "index.html": "/danielboley/index.html",
-    "main.41b0fb27.css.map": "/danielboley/static/css/main.41b0fb27.css.map",
-    "main.8c34da22.js.map": "/danielboley/static/js/main.8c34da22.js.map",
+    "main.2f734cdd.css.map": "/danielboley/static/css/main.2f734cdd.css.map",
+    "main.aaef6736.js.map": "/danielboley/static/js/main.aaef6736.js.map",
     "787.0d217676.chunk.js.map": "/danielboley/static/js/787.0d217676.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.41b0fb27.css",
-    "static/js/main.8c34da22.js"
+    "static/css/main.2f734cdd.css",
+    "static/js/main.aaef6736.js"
   ]
 }
