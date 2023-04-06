@@ -10,9 +10,9 @@ function TechProjCard({
   created,
 }) {
   return (
-    <div>
-      <div>
-        <img width="420" height="315" src={image}></img>
+    <div className="flex items-center justify-center h-auto w-full p-4 shadow-xl shadow-gray-300 rounded-xl">
+      
+        <img className="max-w-md h-auto" src={image}></img>
         <h2>{title}</h2>
         <h3>{description}</h3>
         {/* <a href={loom}>Demo</a> */}
@@ -36,7 +36,7 @@ function TechProjCard({
           ))}
         </ul>
         <h4>Created: {created}</h4>
-      </div>
+      
     </div>
   );
 }

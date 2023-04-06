@@ -17,9 +17,16 @@ import {
 function Skills() {
   return (
     <div className="my-24 w-full lg:h-screen">
-      <h1 className="font-bold text-center text-xl md:text-3xl sm:pt-4 sm:pb-8 pb-4">
-        Tech Stack
-      </h1>
+
+      <div className="max-w-7xl mx-auto">
+        <h1 className="font-bold text-center text-xl md:text-3xl sm:pt-4">
+          Tech Stack
+        </h1>
+        <p className="text-lg text-center py-4 sm:pb-8 px-8">
+          Some of the languages, frameworks, platforms, and services I've worked with.
+        </p>
+      </div>
+      
 
       <div className="max-w-7xl mx-auto h-auto flex flex-col justify-center">
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -73,7 +80,7 @@ function Skills() {
                 <SiReact className="text-7xl" />
               </div>
               <div className="flex flex-col items-center justify-center text-xl md:text-3xl">
-                <h2>React.js</h2>
+                <h2>React</h2>
               </div>
             </div>
           </div>
