@@ -17,7 +17,7 @@ import {
 function Skills() {
   return (
     <div className="my-24 w-full lg:h-screen">
-      <h1 className="font-bold text-center text-xl md:text-3xl sm:pb-8 pb-4">
+      <h1 className="font-bold text-center text-xl md:text-3xl sm:pt-4 sm:pb-8 pb-4">
         Tech Stack
       </h1>
 
