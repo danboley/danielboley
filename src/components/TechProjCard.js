@@ -10,33 +10,37 @@ function TechProjCard({
   created,
 }) {
   return (
-    <div className="flex items-center justify-center h-auto w-full p-4 shadow-xl shadow-gray-300 rounded-xl">
-      
-        <img className="max-w-md h-auto" src={image}></img>
-        <h2>{title}</h2>
-        <h3>{description}</h3>
-        {/* <a href={loom}>Demo</a> */}
+    <div className="p-4 shadow-xl rounded-xl shadow-gray-300">
+      <div className="h-full text-center grid justify-center items-center space-y-4">
+        <img
+          className="sm:max-w-xl w-full h-auto m-auto rounded-xl"
+          src={image}
+        ></img>
+        <h2 className="font-bold text-xl md:text-3xl">{title}</h2>
+        <h3 className="font-semibold text-md md:text-xl">{description}</h3>
+        {/* <a className="text-md md:text-xl" href={loom}>Demo</a> */}
         {loom ? (
-          <div>
-            <iframe
-              width="420"
-              height="315"
-              src={loom}
-              allow="fullscreen *"
-            ></iframe>
-          </div>
+          <iframe
+            className="m-auto rounded-xl"
+            src={loom}
+            allow="fullscreen *"
+          ></iframe>
         ) : null}
-        {/* <div>
-          <iframe width="420" height="315" src={loom} allow="geolocation"></iframe>
-        </div> */}
-        <a href={github}>GitHub Repo</a>
-        <ul>
+        <a
+          className="font-semibold text-md md:text-xl border- p-2 m-auto hover:bg-gray-300 rounded-xl shadow-xl shadow-gray-300 transition ease-in-out hover:scale-110"
+          type="button"
+          href={github}
+          target="_blank"
+        >
+          <h4 className="">GitHub Repo</h4>
+        </a>
+        <ul className="text-md md:text-xl space-y-2">
           {details.split(".").map((detail, index) => (
             <li key={index}>{detail}</li>
           ))}
         </ul>
-        <h4>Created: {created}</h4>
-      
+        <h4 className="text-sm md:text-lg">Created: {created}</h4>
+      </div>
     </div>
   );
 }

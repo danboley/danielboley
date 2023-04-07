@@ -24,13 +24,18 @@ function TechProjects() {
         <h1 className="font-bold text-center text-xl md:text-3xl sm:pt-4">
           Technical Projects
         </h1>
-        <p className="text-lg text-center py-4 sm:pb-8 px-8">
+        <p className="text-lg text-center py-4 px-8">
           Portfolio of technical coding projects I've completed.
         </p>
-        <p className="text-lg text-center py-4 sm:pb-8 px-8">Coming Soon!</p>
       </div>
 
-      {/* <div className="max-w-7xl mx-auto">{projs}</div> */}
+      <div className="mb-24 w-full">
+        <div className="max-w-7xl mx-auto h-auto flex flex-col">
+          <div className="grid md:grid-cols-2 lg:grid-cols-2 gap-y-4 gap-x-8">
+            {projs}
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

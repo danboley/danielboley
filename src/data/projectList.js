@@ -52,7 +52,7 @@ export default [
   },
   {
     id: 5,
-    title: "Farmers Merket Recipe Finder",
+    title: "Farmers Market Recipe Finder",
     image: "https://i.imgur.com/WMBB7FR.png",
     description:
       "Allows users to interact with Tasty’s recipe API to find top recipes based on seasonal ingredient selections.",
@@ -66,10 +66,11 @@ export default [
   {
     id: 6,
     title: "Portfolio Website",
-    image: "",
+    image: "https://i.imgur.com/7avGWXa.jpg",
     description:
-      "TBD",
-    details: `TBD`,
+      "Allows users to see my technical portfolio and learn more about me!",
+    details: `SPA created with Javascript, React, and Node.
+    Styled with Tailwind CSS.`,
     created: "March 2023",
     github: "https://github.com/danboley/danielboley",
   },
