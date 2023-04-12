@@ -11,13 +11,10 @@ function About() {
     <div className="my-24 w-full py-4 items-center sm:px-8 px-4">
       <div className="max-w-screen-xl m-auto">
         <h1 className="font-bold text-center text-xl md:text-3xl">About Me</h1>
-        <p className="text-lg text-center py-4 px-8">
+        <p className="text-lg text-center pt-4 px-8">
           Howdy! My name is Daniel Boley and I'm a software engineer,
           ultramarathoner, dog dad, music enthusiast, list lover, and much more.
         </p>
-        <h1 className="font-bold text-xl md:text-3xl text-center pt-4">
-          My Many Hats...
-        </h1>
         <div className="md:grid grid-cols-3 sm:pt-16 pt-8 sm:pl-16 items-center">
           <img
             className="w-full h-auto max-w-xl rounded-xl shadow-xl shadow-gray-400"

@@ -5,7 +5,6 @@ import { MdOutlineEmail } from "react-icons/md";
 function Contact() {
   return (
     <div className="my-24 w-full lg:h-screen">
-
       <div className="max-w-7xl mx-auto">
         <h1 className="font-bold text-center text-xl md:text-3xl sm:pt-4">
           Contact Info
@@ -61,7 +60,6 @@ function Contact() {
               </div>
             </a>
           </div>
-          
         </div>
       </div>
     </div>
