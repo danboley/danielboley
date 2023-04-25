@@ -25,7 +25,7 @@ function TechProjects() {
           Technical Projects
         </h1>
         <p className="text-lg text-center py-4 px-8">
-          Portfolio of technical coding projects I've completed.
+          Portfolio of technical coding projects I've created and completed.
         </p>
       </div>
 
