@@ -2,7 +2,7 @@ import React from "react";
 
 function Home() {
   return (
-    <div className="my-36 w-full md:h-screen sm:p-2 px-2 items-center">
+    <div className="sm:my-16 my-36 w-full md:h-screen sm:p-2 px-2 items-center">
       <div className="max-w-screen-xl m-auto md:grid grid-cols-3 sm:py-16 px-2 gap-8">
         <div className="pr-8">
           <img
@@ -18,7 +18,8 @@ function Home() {
           <h2 className="text-xl p-8 sm:text-left text-center">
             I'm a full stack software engineer and I built this website to
             display some of the projects I've created, show off my technical
-            skills, and share some of my other interests.
+            skills, and share some of my other interests. Thanks for stopping
+            by!
           </h2>
         </div>
       </div>

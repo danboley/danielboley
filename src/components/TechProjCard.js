@@ -39,7 +39,6 @@ function TechProjCard({
             <li key={index}>{detail}</li>
           ))}
         </ul>
-        <h4 className="text-sm md:text-lg">Created: {created}</h4>
       </div>
     </div>
   );
