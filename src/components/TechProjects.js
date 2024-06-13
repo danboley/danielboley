@@ -13,7 +13,6 @@ function TechProjects() {
         details={project.details}
         loom={project.loom}
         github={project.github}
-        created={project.created}
       />
     );
   });
@@ -25,7 +24,7 @@ function TechProjects() {
           Technical Projects
         </h1>
         <p className="text-lg text-center py-4 px-8">
-          Portfolio of technical coding projects I've created and completed.
+          Portfolio of technical coding projects I've developed.
         </p>
       </div>
 

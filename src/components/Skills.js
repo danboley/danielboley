@@ -21,6 +21,15 @@ import {
   SiRender,
   SiGit,
   SiSqlite,
+  SiMongodb,
+  SiVault,
+  SiSquarespace,
+  SiGoogledomains,
+  SiAzurepipelines,
+  SiAzureartifacts,
+  SiConfluence,
+  SiSwagger,
+  SiFigma,
 } from "react-icons/si";
 
 function Skills() {
@@ -28,7 +37,7 @@ function Skills() {
     <div className="my-24 w-full h-full">
       <div className="max-w-7xl mx-auto">
         <h1 className="font-bold text-center text-xl md:text-3xl sm:pt-4">
-          Tech Stack
+          Tech Stack & Skills
         </h1>
         <p className="text-lg text-center py-4 px-8">
           Some of the languages, frameworks, platforms, and services I've worked
@@ -88,6 +97,45 @@ function Skills() {
         </div>
 
         <h2 className="font-bold text-center text-xl md:text-3xl py-10 md:py-8">
+          Frameworks
+        </h2>
+
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="p-6 shadow-xl rounded-xl shadow-gray-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <SiDotnet className="text-7xl" />
+              </div>
+              <div className="flex flex-col items-center justify-center text-xl md:text-3xl">
+                <h2>.NET</h2>
+              </div>
+            </div>
+          </div>
+
+          <div className="p-6 shadow-xl rounded-xl shadow-gray-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <SiRubyonrails className="text-7xl" />
+              </div>
+              <div className="flex flex-col items-center justify-center text-xl md:text-3xl">
+                <h2>Ruby on Rails</h2>
+              </div>
+            </div>
+          </div>
+
+          <div className="p-6 shadow-xl rounded-xl shadow-gray-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <SiRubysinatra className="text-7xl" />
+              </div>
+              <div className="flex flex-col items-center justify-center text-xl md:text-3xl">
+                <h2>Sinatra</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <h2 className="font-bold text-center text-xl md:text-3xl py-10 md:py-8">
           Frontend Development
         </h2>
 
@@ -135,20 +183,31 @@ function Skills() {
               </div>
             </div>
           </div>
+
+          <div className="p-6 shadow-xl rounded-xl shadow-gray-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <SiFigma className="text-7xl" />
+              </div>
+              <div className="flex flex-col items-center justify-center text-xl md:text-3xl">
+                <h2>Figma</h2>
+              </div>
+            </div>
+          </div>
         </div>
 
         <h2 className="font-bold text-center text-xl md:text-3xl py-10 md:py-8">
-          Database
+          Database Management
         </h2>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div className="p-6 shadow-xl rounded-xl shadow-gray-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <SiPostgresql className="text-7xl" />
+                <SiMongodb className="text-7xl" />
               </div>
               <div className="flex flex-col items-center justify-center text-xl md:text-3xl">
-                <h2>PostgreSQL</h2>
+                <h2>MongoDB</h2>
               </div>
             </div>
           </div>
@@ -160,6 +219,17 @@ function Skills() {
               </div>
               <div className="flex flex-col items-center justify-center text-xl md:text-3xl">
                 <h2>MSSQL</h2>
+              </div>
+            </div>
+          </div>
+
+          <div className="p-6 shadow-xl rounded-xl shadow-gray-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <SiPostgresql className="text-7xl" />
+              </div>
+              <div className="flex flex-col items-center justify-center text-xl md:text-3xl">
+                <h2>PostgreSQL</h2>
               </div>
             </div>
           </div>
@@ -188,6 +258,28 @@ function Skills() {
               </div>
               <div className="flex flex-col items-center justify-center text-xl md:text-3xl">
                 <h2>Azure DevOps</h2>
+              </div>
+            </div>
+          </div>
+
+          <div className="p-6 shadow-xl rounded-xl shadow-gray-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <SiAzurepipelines className="text-7xl" />
+              </div>
+              <div className="flex flex-col items-center justify-center text-xl md:text-3xl">
+                <h2>Azure Pipelines</h2>
+              </div>
+            </div>
+          </div>
+
+          <div className="p-6 shadow-xl rounded-xl shadow-gray-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <SiAzureartifacts className="text-7xl" />
+              </div>
+              <div className="flex flex-col items-center justify-center text-xl md:text-3xl">
+                <h2>Azure Artifacts</h2>
               </div>
             </div>
           </div>
@@ -224,69 +316,6 @@ function Skills() {
               </div>
             </div>
           </div>
-        </div>
-
-        <h2 className="font-bold text-center text-xl md:text-3xl py-10 md:py-8">
-          Frameworks
-        </h2>
-
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-          <div className="p-6 shadow-xl rounded-xl shadow-gray-300">
-            <div className="grid grid-cols-2 gap-4 justify-center items-center">
-              <div className="m-auto">
-                <SiDotnet className="text-7xl" />
-              </div>
-              <div className="flex flex-col items-center justify-center text-xl md:text-3xl">
-                <h2>.NET</h2>
-              </div>
-            </div>
-          </div>
-
-          <div className="p-6 shadow-xl rounded-xl shadow-gray-300">
-            <div className="grid grid-cols-2 gap-4 justify-center items-center">
-              <div className="m-auto">
-                <SiRubyonrails className="text-7xl" />
-              </div>
-              <div className="flex flex-col items-center justify-center text-xl md:text-3xl">
-                <h2>Ruby on Rails</h2>
-              </div>
-            </div>
-          </div>
-
-          <div className="p-6 shadow-xl rounded-xl shadow-gray-300">
-            <div className="grid grid-cols-2 gap-4 justify-center items-center">
-              <div className="m-auto">
-                <SiRubysinatra className="text-7xl" />
-              </div>
-              <div className="flex flex-col items-center justify-center text-xl md:text-3xl">
-                <h2>Sinatra</h2>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <h2 className="font-bold text-center text-xl md:text-3xl py-10 md:py-8">
-          Software
-        </h2>
-
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-          <div className="p-6 shadow-xl rounded-xl shadow-gray-300">
-            <div className="grid grid-cols-2 gap-4 justify-center items-center">
-              <div className="m-auto">
-                <SiPostman className="text-7xl" />
-              </div>
-              <div className="flex flex-col items-center justify-center text-xl md:text-3xl">
-                <h2>Postman</h2>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <h2 className="font-bold text-center text-xl md:text-3xl py-10 md:py-8">
-          Static Site Generators
-        </h2>
-
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div className="p-6 shadow-xl rounded-xl shadow-gray-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
@@ -305,6 +334,78 @@ function Skills() {
               </div>
               <div className="flex flex-col items-center justify-center text-xl md:text-3xl">
                 <h2>Render</h2>
+              </div>
+            </div>
+          </div>
+
+          <div className="p-6 shadow-xl rounded-xl shadow-gray-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <SiSquarespace className="text-7xl" />
+              </div>
+              <div className="flex flex-col items-center justify-center text-xl md:text-3xl">
+                <h2>Square-space</h2>
+              </div>
+            </div>
+          </div>
+
+          <div className="p-6 shadow-xl rounded-xl shadow-gray-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <SiGoogledomains className="text-7xl" />
+              </div>
+              <div className="flex flex-col items-center justify-center text-xl md:text-3xl">
+                <h2>Google Domains</h2>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <h2 className="font-bold text-center text-xl md:text-3xl py-10 md:py-8">
+          Software / Tools / Etc...
+        </h2>
+
+        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="p-6 shadow-xl rounded-xl shadow-gray-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <SiPostman className="text-7xl" />
+              </div>
+              <div className="flex flex-col items-center justify-center text-xl md:text-3xl">
+                <h2>Postman</h2>
+              </div>
+            </div>
+          </div>
+
+          <div className="p-6 shadow-xl rounded-xl shadow-gray-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <SiSwagger className="text-7xl" />
+              </div>
+              <div className="flex flex-col items-center justify-center text-xl md:text-3xl">
+                <h2>Swagger</h2>
+              </div>
+            </div>
+          </div>
+
+          <div className="p-6 shadow-xl rounded-xl shadow-gray-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <SiVault className="text-7xl" />
+              </div>
+              <div className="flex flex-col items-center justify-center text-xl md:text-3xl">
+                <h2>Vault</h2>
+              </div>
+            </div>
+          </div>
+
+          <div className="p-6 shadow-xl rounded-xl shadow-gray-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <SiConfluence className="text-7xl" />
+              </div>
+              <div className="flex flex-col items-center justify-center text-xl md:text-3xl">
+                <h2>Confluence</h2>
               </div>
             </div>
           </div>
