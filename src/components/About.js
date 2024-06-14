@@ -12,8 +12,8 @@ function About() {
       <div className="max-w-screen-xl m-auto">
         <h1 className="font-bold text-center text-xl md:text-3xl">About Me</h1>
         <p className="text-lg text-center pt-4 px-8">
-          Howdy! My name is Daniel Boley and I'm a software engineer,
-          ultramarathoner, dog dad, music enthusiast, list lover, and much more.
+          Some of my passions include software engineering, running, hiking,
+          reading, movies, music, lists, beer, and most importantly, my family!
         </p>
         <div className="md:grid grid-cols-3 sm:pt-16 pt-8 sm:pl-16 items-center">
           <img
@@ -26,10 +26,11 @@ function About() {
                 Software Engineer
               </h2>
               <p className="sm:pr-16">
-                In 2022, I enrolled in Flatiron School's Full Stack Software
-                Engineering program. Since then, I've developed applications and
-                websites from wireframe to deployment, including this website.
-                To check out{" "}
+                I'm a Full Stack Software Engineer with professional experience
+                designing and developing microservices and enterprise web
+                applications from database to user interface. Additionally, I've
+                developed personal, technical projects from wireframe to
+                deployment, including this website. To check out{" "}
                 <a
                   className="underline hover:text-gray-600"
                   href="/#/techprojects"
@@ -69,13 +70,20 @@ function About() {
                 >
                   NYC Marathon
                 </a>
-                , won a{" "}
+                , won a couple of{" "}
                 <a
                   className="underline hover:text-gray-600"
                   href="https://www.strava.com/activities/8147043323/overview"
                   target="_blank"
                 >
-                  trail marathon
+                  trail
+                </a>{" "}
+                <a
+                  className="underline hover:text-gray-600"
+                  href="https://www.strava.com/activities/9502894817/overview"
+                  target="_blank"
+                >
+                  marathons
                 </a>
                 , and run in races up to{" "}
                 <a
@@ -83,10 +91,16 @@ function About() {
                   href="https://www.strava.com/activities/7896222919/overview"
                   target="_blank"
                 >
-                  50 miles
+                  50
+                </a>{" "}
+                <a
+                  className="underline hover:text-gray-600"
+                  href="https://www.strava.com/activities/9281715185/overview"
+                  target="_blank"
+                >
+                  miles
                 </a>
-                . In July 2023, I'll be running my first 100 mile race, the{" "}
-                <a>Vermont 100</a>.
+                . My current goal is to complete my first 100 mile race.
               </p>
             </div>
           </div>
@@ -94,14 +108,15 @@ function About() {
         <div className="md:grid grid-cols-3 sm:pt-16 pt-8 sm:pl-16 items-center">
           <img
             className="w-full h-auto max-w-xl rounded-xl shadow-xl shadow-gray-400"
-            src="https://i.imgur.com/PZDxxqS.jpg"
+            src="https://i.imgur.com/bAnlVid.jpg"
           ></img>
           <div className="col-span-2 my-8 mx-8 sm:text-left text-center flex">
             <div>
-              <h2 className="font-bold text-lg sm:pt-0 pt-2">Dog Dad</h2>
+              <h2 className="font-bold text-lg sm:pt-0 pt-2">Dad / Dog Dad</h2>
               <p className="sm:pr-16">
-                I have a {finnsAge()} year old golden retriever named Finn. He's
-                a sweetheart!
+                In 2023, my wife and I welcomed our son Patrick into our family!
+                We also have a {finnsAge()} year old golden retriever named
+                Finn. Patrick and Finn are best friends already!
               </p>
             </div>
           </div>
@@ -157,8 +172,8 @@ function About() {
               <h2 className="font-bold text-lg sm:pt-0 pt-2">List Lover</h2>
               <p className="sm:pr-16">
                 If I haven't made it apparent by now, I absolutely LOVE lists.
-                There's nothing more satisfying than putting together a good list or
-                excel spreadsheet.{" "}
+                There's nothing more satisfying than putting together a good
+                list or excel spreadsheet.{" "}
                 <a
                   className="underline hover:text-gray-600"
                   href="https://letterboxd.com/danboley/"
