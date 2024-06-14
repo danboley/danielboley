@@ -7,6 +7,7 @@ import About from "./About";
 import Skills from "./Skills";
 import Contact from "./Contact";
 import Footer from "./Footer";
+import ShredderCorp from "./ShredderCorp";
 
 function App() {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
@@ -32,6 +33,7 @@ function App() {
         <Route path="techprojects" element={<TechProjects />} />
         <Route path="skills" element={<Skills />} />
         <Route path="contact" element={<Contact />} />
+        <Route path="shreddercorp" element={<ShredderCorp />} />
       </Routes>
       <Footer windowWidth={windowWidth} />
     </div>
