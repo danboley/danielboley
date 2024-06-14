@@ -1,6 +1,7 @@
 import React from "react";
 import { SiLinkedin, SiGithub } from "react-icons/si";
 import { MdOutlineEmail } from "react-icons/md";
+// import ShredderCorpWhiteLogo from "../assets/shredder-corp-all-white-logo.png";
 
 function Footer({ windowWidth }) {
   const currentYear = new Date().getFullYear();
@@ -26,6 +27,29 @@ function Footer({ windowWidth }) {
             <SiGithub />
           </a>
         </h1>
+        {/* <h1 className="text-xl md:text-3xl transition ease-in-out hover:scale-110">
+          <a href="#" target="_blank">
+            {windowWidth >= 900 ? (
+              <img
+                alt="Shredder Corp Logo"
+                style={{
+                  width: "30px",
+                  height: "30px",
+                }}
+                src={ShredderCorpWhiteLogo}
+              ></img>
+            ) : (
+              <img
+                alt="Shredder Corp Logo"
+                style={{
+                  width: "20px",
+                  height: "20px",
+                }}
+                src={ShredderCorpWhiteLogo}
+              ></img>
+            )}
+          </a>
+        </h1> */}
       </div>
       {windowWidth < 900 ? (
         <h4 className="md:text-xl text-xs text-center pt-4">

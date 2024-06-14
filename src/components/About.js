@@ -17,6 +17,7 @@ function About() {
         </p>
         <div className="md:grid grid-cols-3 sm:pt-16 pt-8 sm:pl-16 items-center">
           <img
+            alt="Picture of Code in IDE"
             className="w-full h-auto max-w-xl rounded-xl shadow-xl shadow-gray-400"
             src="https://i.imgur.com/N1nZuDF.jpg"
           ></img>
@@ -48,6 +49,7 @@ function About() {
         </div>
         <div className="md:grid grid-cols-3 sm:pt-16 pt-8 sm:pl-16 items-center">
           <img
+            alt="Picture of Dan running"
             className="w-full h-auto max-w-xl rounded-xl shadow-xl shadow-gray-400"
             src="https://i.imgur.com/aCpVPAd.jpg"
           ></img>
@@ -107,6 +109,7 @@ function About() {
         </div>
         <div className="md:grid grid-cols-3 sm:pt-16 pt-8 sm:pl-16 items-center">
           <img
+            alt="Picture of Patrick and Finn"
             className="w-full h-auto max-w-xl rounded-xl shadow-xl shadow-gray-400"
             src="https://i.imgur.com/bAnlVid.jpg"
           ></img>
@@ -123,6 +126,7 @@ function About() {
         </div>
         <div className="md:grid grid-cols-3 sm:pt-16 pt-8 sm:pl-16 items-center">
           <img
+            alt="Picture of the band Tennis performing live"
             className="w-full h-auto max-w-xl rounded-xl shadow-xl shadow-gray-400"
             src="https://i.imgur.com/OycLvsK.jpg"
           ></img>
@@ -164,6 +168,7 @@ function About() {
         </div>
         <div className="md:grid grid-cols-3 sm:pt-16 pt-8 sm:pl-16 items-center">
           <img
+            alt="Picture of Discogs app"
             className="w-full h-auto max-w-xl rounded-xl shadow-xl shadow-gray-400"
             src="https://i.imgur.com/FUofp2T.jpg"
           ></img>
