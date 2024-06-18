@@ -6,6 +6,7 @@ function Home() {
       <div className="max-w-screen-xl m-auto md:grid grid-cols-3 sm:py-16 px-2 gap-8">
         <div className="pr-8">
           <img
+            alt="Daniel Boley headshot"
             className="w-full h-auto rounded-full m-4 shadow-xl shadow-gray-400"
             src="https://i.imgur.com/RtNOPZb.jpg"
           ></img>
