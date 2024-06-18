@@ -61,10 +61,10 @@ function ShredderCorp() {
                 onClick={() => toggleAnswer(index)}
                 className="flex items-center justify-between w-full px-4 py-5 sm:p-6"
               >
-                <span className="flexext-lg font-semibold text-black">
+                <span className="flex text-lg font-semibold text-black">
                   {faq.question}
                 </span>
-                <span className="flex text-lg font-semibold text-black">
+                <span>
                   <svg
                     id={"arrow" + index}
                     fill="none"

@@ -18,7 +18,7 @@ export default [
     projLink: "https://www.littlebransonbear.com",
   },
   {
-    id: 2,
+    id: 3,
     title: "The Rules",
     image: "https://i.imgur.com/leuN883.jpeg",
     description: "The Shredderz have even authored a book. Learn the Rules.",
