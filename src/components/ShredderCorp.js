@@ -1,7 +1,23 @@
 import { useState } from "react";
+import ShredderCorpProjCard from "./ShredderCorpProjCard";
+import projects from "../data/scProjects";
+import faqs from "../data/faqs";
 
 function ShredderCorp() {
   const [isOpen, setIsOpen] = useState(Array(4).fill(false));
+
+  const projs = projects.map((project) => {
+    return (
+      <ShredderCorpProjCard
+        key={project.id}
+        title={project.title}
+        image={project.image}
+        description={project.description}
+        button={project.button}
+        projLink={project.projLink}
+      />
+    );
+  });
 
   const toggleAnswer = (index) => {
     setIsOpen((prevState) => {
@@ -11,50 +27,28 @@ function ShredderCorp() {
     });
   };
 
-  const faqs = [
-    {
-      question: "What exactly is the Shredderverse?",
-      answer:
-        "The Shredderverse is an extended universe (much like Marvel, DC, and other nerdy movies) created by the Shredderz. The characters and plotlines in this universe are convoluted to the point of sheer confusion and chaos.",
-    },
-    {
-      question: "Is the Shredderverse real? If so, where is it?",
-      answer:
-        "Unlike Marvel, this universe does not exist in the movies, rather it exists in a weird plane somewhere between reality, Steve Buscemi's fever dream, the Upside Down from Stranger Things, and a Slack workspace.",
-    },
-    {
-      question: "Who are the Shredderz?",
-      answer:
-        "The Shredderz are a mysterious group of individuals, and while their motives are often unclear, one thing is certain: they love to shred.",
-    },
-    {
-      question:
-        "You're not actually going to clarify anything or provide useful answers, are you?",
-      answer: "Nope!",
-    },
-    {
-      question: "Is Branson Bear real?",
-      answer: "Only if you truly believe in your heart that he is.",
-    },
-  ];
-
   return (
     <div className="my-24 w-full py-4 items-center sm:px-8 px-4">
       <div className="max-w-screen-xl m-auto">
         <h1 className="font-bold text-center text-xl md:text-3xl">
           Welcome to the Shredderverse
         </h1>
-        <p className="text-lg text-center pt-4 px-8">
-          Here are links to some projects conceived and created by the
-          Shredderz.
+        <p className="text-lg text-center py-4 px-8">
+          Here are some projects conceived & created by the Shredderz.
         </p>
 
-        {/* Insert SC / Branson / Rule Book cards here */}
+        <div className="mb-12 w-full">
+          <div className="max-w-7xl mx-auto h-auto flex flex-col">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-4 gap-x-8">
+              {projs}
+            </div>
+          </div>
+        </div>
 
-        <p className="text-lg text-center pt-4 px-8">
+        <p className="text-lg text-center py-4 px-8">
           Confused? Us too. Peruse some of our FAQs for more info.
         </p>
-        <div className="max-w-3xl mx-auto mt-8 space-y-4 md:mt-16">
+        <div className="max-w-3xl mx-auto my-8 space-y-4 md:my-10">
           {faqs.map((faq, index) => (
             <div
               key={index}

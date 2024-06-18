@@ -1,9 +1,9 @@
 import React from "react";
-import projectList from "../data/projectList";
+import projects from "../data/projects";
 import TechProjCard from "./TechProjCard";
 
 function TechProjects() {
-  const projs = projectList.map((project) => {
+  const projs = projects.map((project) => {
     return (
       <TechProjCard
         key={project.id}
@@ -12,7 +12,7 @@ function TechProjects() {
         description={project.description}
         details={project.details}
         loom={project.loom}
-        github={project.github}
+        github={project.githubLink}
       />
     );
   });

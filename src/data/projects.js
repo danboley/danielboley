@@ -7,7 +7,7 @@ export default [
       "Allows users to see my technical portfolio and learn more about me!",
     details: `✦ SPA created with Javascript, React, and Node.
     ✦ Styled with Tailwind CSS.`,
-    github: "https://github.com/danboley/danielboley",
+    githubLink: "https://github.com/danboley/danielboley",
   },
   {
     id: 2,
@@ -19,7 +19,7 @@ export default [
     ✦ Designed the user interface completely by eye including an identical website layout with Tailwind CSS. 
     ✦ Implemented authentication and authorization, including digest access authentication for credential validation, as well as session persistence, allowing users to create accounts and view content seamlessly`,
     loom: "https://www.loom.com/embed/6cb8106a374d44dead956cb5700297c4",
-    github: "https://github.com/danboley/capstone-project",
+    githubLink: "https://github.com/danboley/capstone-project",
   },
   {
     id: 3,
@@ -31,7 +31,7 @@ export default [
     ✦ Implemented authentication and authorization, including password protection, allowing users to create accounts.
     ✦ Established various models on the backend, including one-to-many and reciprocal many-to-many relationships`,
     loom: "https://www.loom.com/embed/c919e35212fd412b9dd2d29353051e29",
-    github: "https://github.com/danboley/plantspace",
+    githubLink: "https://github.com/danboley/plantspace",
   },
   {
     id: 4,
@@ -43,7 +43,7 @@ export default [
     ✦ Established multiple models within the database, implementing one-to-many and many-to-many relationships.
     ✦ Full CRUD capability established within the Sinatra backend and React frontend that interacts with the API to perform CRUD actions`,
     loom: "https://www.loom.com/embed/6cb8106a374d44dead956cb5700297c4",
-    github: "https://github.com/danboley/phase-3-project-frontend",
+    githubLink: "https://github.com/danboley/phase-3-project-frontend",
   },
   {
     id: 5,
@@ -54,7 +54,7 @@ export default [
     details: `✦ Utilized React library to build the frontend of the Single Page Application.
     ✦ Implemented various routes using React Router, following RESTful routing conventions, with a Navigation Bar allowing users to navigate between routes.
     ✦ Used json-server to create a mock RESTful API backend, allowing for HTTP requests to the json server`,
-    github: "https://github.com/sethbdev/phase-2-project",
+    githubLink: "https://github.com/sethbdev/phase-2-project",
   },
   {
     id: 6,
@@ -66,6 +66,6 @@ export default [
     ✦ Created custom event listeners to handle DOM events and enable user interactivity.
     ✦ Implemented array iteration methods on data accessed from an external, public API, while protecting the API key in a gitignore file
       `,
-    github: "https://github.com/sam-a-code/seasonal-recipes",
+    githubLink: "https://github.com/sam-a-code/seasonal-recipes",
   },
 ];

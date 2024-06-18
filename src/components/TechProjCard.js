@@ -6,8 +6,7 @@ function TechProjCard({
   description,
   details,
   loom,
-  github,
-  created,
+  githubLink,
 }) {
   return (
     <div className="p-4 shadow-xl rounded-xl shadow-gray-300">
@@ -29,7 +28,7 @@ function TechProjCard({
         <a
           className="font-semibold text-md md:text-xl border- p-2 m-auto hover:bg-gray-300 rounded-xl shadow-xl shadow-gray-300 transition ease-in-out hover:scale-110"
           type="button"
-          href={github}
+          href={githubLink}
           target="_blank"
         >
           <h4 className="">GitHub Repo</h4>
