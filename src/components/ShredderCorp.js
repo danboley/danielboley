@@ -61,27 +61,29 @@ function ShredderCorp() {
                 onClick={() => toggleAnswer(index)}
                 className="flex items-center justify-between w-full px-4 py-5 sm:p-6"
               >
-                <span className="flex text-lg font-semibold text-black">
+                <span className="flexext-lg font-semibold text-black">
                   {faq.question}
                 </span>
-                <svg
-                  id={"arrow" + index}
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                  className={`w-6 h-6 black ${
-                    isOpen[index]
-                      ? "transform rotate-0"
-                      : "transform rotate-180"
-                  }`}
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M19 9l-7 7-7-7"
-                  ></path>
-                </svg>
+                <span className="flex text-lg font-semibold text-black">
+                  <svg
+                    id={"arrow" + index}
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    className={`w-6 h-6 black ${
+                      isOpen[index]
+                        ? "transform rotate-0"
+                        : "transform rotate-180"
+                    }`}
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
+                      d="M19 9l-7 7-7-7"
+                    ></path>
+                  </svg>
+                </span>
               </button>
               <div
                 id={"answer" + index}
