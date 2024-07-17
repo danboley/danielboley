@@ -13,7 +13,7 @@ function TechProjects() {
         details={project.details}
         loom={project.loom}
         deployLink={project.deployLink}
-        github={project.githubLink}
+        githubLink={project.githubLink}
       />
     );
   });
