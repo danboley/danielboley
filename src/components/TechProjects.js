@@ -12,6 +12,7 @@ function TechProjects() {
         description={project.description}
         details={project.details}
         loom={project.loom}
+        deployLink={project.deployLink}
         github={project.githubLink}
       />
     );

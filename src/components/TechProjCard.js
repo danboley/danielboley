@@ -5,6 +5,7 @@ function TechProjCard({
   image,
   description,
   details,
+  deployLink,
   loom,
   githubLink,
 }) {
@@ -25,14 +26,28 @@ function TechProjCard({
             allow="fullscreen *"
           ></iframe>
         ) : null}
-        <a
-          className="font-semibold text-md md:text-xl border- p-2 m-auto hover:bg-gray-300 rounded-xl shadow-xl shadow-gray-300 transition ease-in-out hover:scale-110"
-          type="button"
-          href={githubLink}
-          target="_blank"
-        >
-          <h4 className="">GitHub Repo</h4>
-        </a>
+
+        <div className="p-4 flex flex-col md:flex-row md:flex-wrap md:justify-between md:items-center">
+          {deployLink ? (
+            <a
+              className="block mb-4 md:mb-0 md:mr-2 md:w-auto md:flex-shrink-0 font-semibold text-md md:text-xl border- p-2 m-auto hover:bg-gray-300 rounded-xl shadow-xl shadow-gray-300 transition ease-in-out hover:scale-110"
+              type="button"
+              href={deployLink}
+              target="_blank"
+            >
+              <h4 className="">Deployed Website</h4>
+            </a>
+          ) : null}
+          <a
+            className="block md:w-auto font-semibold text-md md:text-xl border- p-2 m-auto hover:bg-gray-300 rounded-xl shadow-xl shadow-gray-300 transition ease-in-out hover:scale-110"
+            type="button"
+            href={githubLink}
+            target="_blank"
+          >
+            <h4 className="">GitHub Repo</h4>
+          </a>
+        </div>
+
         <ul className="text-md md:text-xl space-y-2">
           {details.split(".").map((detail, index) => (
             <li key={index}>{detail}</li>

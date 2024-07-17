@@ -1,6 +1,19 @@
 export default [
   {
     id: 1,
+    title: "Ticketing App",
+    image: "https://i.imgur.com/C55F5Vv.png",
+    description:
+      "Simple ticketing app in which users can request help by submitting a ticket and admins can edit and respond to tickets.",
+    details: `✦ SPA created with Javascript, React, and Ruby on Rails.
+    ✦ Styled with Tailwind CSS.
+    ✦ Integrates AG Grid for admin ticket panel.
+    ✦ Deployed web app and PostgreSQL database via Render.`,
+    deployLink: "https://ticketing-app-w4af.onrender.com/",
+    githubLink: "https://github.com/danboley/ticketing-app",
+  },
+  {
+    id: 2,
     title: "Portfolio Website",
     image: "https://i.imgur.com/7avGWXa.jpg",
     description:
@@ -10,7 +23,7 @@ export default [
     githubLink: "https://github.com/danboley/danielboley",
   },
   {
-    id: 2,
+    id: 3,
     title: "Strava",
     image: "https://i.imgur.com/5FLeE8P.jpg",
     description:
@@ -22,7 +35,7 @@ export default [
     githubLink: "https://github.com/danboley/capstone-project",
   },
   {
-    id: 3,
+    id: 4,
     title: "PlantSpace",
     image: "https://i.imgur.com/oKqAAjv.jpg",
     description:
@@ -34,7 +47,7 @@ export default [
     githubLink: "https://github.com/danboley/plantspace",
   },
   {
-    id: 4,
+    id: 5,
     title: "Flatiron Tutor Appointments",
     image: "https://i.imgur.com/FcKRIRt.png",
     description:
@@ -46,7 +59,7 @@ export default [
     githubLink: "https://github.com/danboley/phase-3-project-frontend",
   },
   {
-    id: 5,
+    id: 6,
     title: "Halloween App",
     image: "https://i.imgur.com/1CKg5xH.jpg",
     description:
@@ -57,7 +70,7 @@ export default [
     githubLink: "https://github.com/sethbdev/phase-2-project",
   },
   {
-    id: 6,
+    id: 7,
     title: "Farmers Market Recipe Finder",
     image: "https://i.imgur.com/WMBB7FR.png",
     description:
