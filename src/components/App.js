@@ -25,8 +25,9 @@ function App() {
   }, []);
 
   return (
-    <div className="App">
+    <div className="App flex flex-col min-h-screen">
       <Navbar windowWidth={windowWidth} />
+      <div className="flex-grow">
       <Routes>
         <Route path="" element={<Home />} />
         <Route path="about" element={<About />} />
@@ -35,6 +36,7 @@ function App() {
         <Route path="contact" element={<Contact />} />
         <Route path="shreddercorp" element={<ShredderCorp />} />
       </Routes>
+      </div>
       <Footer windowWidth={windowWidth} />
     </div>
   );

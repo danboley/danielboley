@@ -8,7 +8,7 @@ function Footer({ windowWidth }) {
   const currentYear = new Date().getFullYear();
 
   return (
-    <div className="bg-black text-white fixed left-0 right-0 bottom-0 h-20 p-4 sm:p-6 font-bold">
+    <div className="bg-black text-white left-0 right-0 bottom-0 h-20 p-4 sm:p-6 font-bold">
       <div className="text-center flex justify-center space-x-8">
         {windowWidth >= 900 ? (
           <h4 className="md:text-xl text-xs">© {currentYear} Daniel Boley</h4>
