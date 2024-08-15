@@ -8,6 +8,7 @@ import Skills from "./Skills";
 import Contact from "./Contact";
 import Footer from "./Footer";
 import ShredderCorp from "./ShredderCorp";
+import Scroll from "./Scroll";
 
 function App() {
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
@@ -26,6 +27,7 @@ function App() {
 
   return (
     <div className="App flex flex-col min-h-screen">
+      <Scroll />
       <Navbar windowWidth={windowWidth} />
       <div className="flex-grow">
       <Routes>
