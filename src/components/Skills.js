@@ -30,6 +30,9 @@ import {
   SiConfluence,
   SiSwagger,
   SiFigma,
+  SiAxios,
+  SiNodedotjs,
+  SiExpress,
 } from "react-icons/si";
 
 function Skills() {
@@ -97,7 +100,7 @@ function Skills() {
         </div>
 
         <h2 className="font-bold text-center text-xl md:text-3xl py-10 md:py-8">
-          Frameworks
+          Frameworks & Runtimes
         </h2>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -108,6 +111,28 @@ function Skills() {
               </div>
               <div className="flex flex-col items-center justify-center text-xl md:text-3xl">
                 <h2>.NET</h2>
+              </div>
+            </div>
+          </div>
+
+          <div className="p-6 shadow-xl rounded-xl shadow-gray-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <SiNodedotjs className="text-7xl" />
+              </div>
+              <div className="flex flex-col items-center justify-center text-xl md:text-3xl">
+                <h2>Node.js</h2>
+              </div>
+            </div>
+          </div>
+
+          <div className="p-6 shadow-xl rounded-xl shadow-gray-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <SiExpress className="text-7xl" />
+              </div>
+              <div className="flex flex-col items-center justify-center text-xl md:text-3xl">
+                <h2>Express.js</h2>
               </div>
             </div>
           </div>
@@ -366,6 +391,17 @@ function Skills() {
         </h2>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="p-6 shadow-xl rounded-xl shadow-gray-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <SiAxios className="text-7xl" />
+              </div>
+              <div className="flex flex-col items-center justify-center text-xl md:text-3xl">
+                <h2>Axios</h2>
+              </div>
+            </div>
+          </div>
+
           <div className="p-6 shadow-xl rounded-xl shadow-gray-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
