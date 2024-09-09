@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.96e980cb.css",
-    "main.js": "/static/js/main.a27af46f.js",
+    "main.js": "/static/js/main.bb263021.js",
     "static/js/787.0d217676.chunk.js": "/static/js/787.0d217676.chunk.js",
     "static/media/shredder-corp-all-white-logo.png": "/static/media/shredder-corp-all-white-logo.2c4d269dcb05cddb117d.png",
     "index.html": "/index.html",
     "main.96e980cb.css.map": "/static/css/main.96e980cb.css.map",
-    "main.a27af46f.js.map": "/static/js/main.a27af46f.js.map",
+    "main.bb263021.js.map": "/static/js/main.bb263021.js.map",
     "787.0d217676.chunk.js.map": "/static/js/787.0d217676.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.96e980cb.css",
-    "static/js/main.a27af46f.js"
+    "static/js/main.bb263021.js"
   ]
 }
