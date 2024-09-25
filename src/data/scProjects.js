@@ -18,6 +18,14 @@ export default [
     projLink: "https://www.littlebransonbear.com",
   },
   {
+    id: 2,
+    title: "Branson Bear Tracker",
+    image: "https://i.imgur.com/wVxjwtN.png",
+    description: "Track Branson Bear in the wild!",
+    button: "Explore Sightings",
+    projLink: "https://www.branson-bear.com",
+  },
+  {
     id: 3,
     title: "The Rules",
     image: "https://i.imgur.com/leuN883.jpeg",

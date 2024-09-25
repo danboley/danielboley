@@ -1,6 +1,18 @@
 export default [
   {
     id: 1,
+    title: "Branson Bear Tracker",
+    image: "https://i.imgur.com/1VH1n2H.png",
+    description: "Allows users to track real life instances of a meme online.",
+    details: `✦ SPA - client developed with Javascript & React, server with and JavaScript & Node.
+    ✦ Integrates various Google Cloud Console features, including Google Maps API and Google Cloud Storage.
+    ✦ Styled with Tailwind CSS.
+    ✦ Server and PostgreSQL database deployed via Render, client deployed via Vercel.`,
+    deployLink: "https://branson-bear.com/",
+    githubLink: "https://github.com/danboley/branson-bear-spotter",
+  },
+  {
+    id: 2,
     title: "Ticketing App",
     image: "https://i.imgur.com/C55F5Vv.png",
     description:
@@ -13,7 +25,7 @@ export default [
     githubLink: "https://github.com/danboley/ticketing-app",
   },
   {
-    id: 2,
+    id: 3,
     title: "Portfolio Website",
     image: "https://i.imgur.com/7avGWXa.jpg",
     description:
@@ -23,7 +35,7 @@ export default [
     githubLink: "https://github.com/danboley/danielboley",
   },
   {
-    id: 3,
+    id: 4,
     title: "Strava",
     image: "https://i.imgur.com/5FLeE8P.jpg",
     description:
@@ -35,7 +47,7 @@ export default [
     githubLink: "https://github.com/danboley/capstone-project",
   },
   {
-    id: 4,
+    id: 5,
     title: "PlantSpace",
     image: "https://i.imgur.com/oKqAAjv.jpg",
     description:
@@ -47,7 +59,7 @@ export default [
     githubLink: "https://github.com/danboley/plantspace",
   },
   {
-    id: 5,
+    id: 6,
     title: "Flatiron Tutor Appointments",
     image: "https://i.imgur.com/FcKRIRt.png",
     description:
@@ -59,7 +71,7 @@ export default [
     githubLink: "https://github.com/danboley/phase-3-project-frontend",
   },
   {
-    id: 6,
+    id: 7,
     title: "Halloween App",
     image: "https://i.imgur.com/1CKg5xH.jpg",
     description:
@@ -70,7 +82,7 @@ export default [
     githubLink: "https://github.com/sethbdev/phase-2-project",
   },
   {
-    id: 7,
+    id: 8,
     title: "Farmers Market Recipe Finder",
     image: "https://i.imgur.com/WMBB7FR.png",
     description:
