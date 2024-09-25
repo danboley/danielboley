@@ -36,6 +36,8 @@ import {
   SiGooglecloud,
   SiVercel,
   SiJsonwebtokens,
+  SiSass,
+  SiCreatereactapp,
 } from "react-icons/si";
 
 function Skills() {
@@ -107,6 +109,17 @@ function Skills() {
         </h2>
 
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="p-6 shadow-xl rounded-xl shadow-gray-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <SiCreatereactapp className="text-7xl" />
+              </div>
+              <div className="flex flex-col items-center justify-center text-xl md:text-2xl">
+                <h2>Create React App</h2>
+              </div>
+            </div>
+          </div>
+
           <div className="p-6 shadow-xl rounded-xl shadow-gray-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
@@ -182,6 +195,17 @@ function Skills() {
           <div className="p-6 shadow-xl rounded-xl shadow-gray-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
+                <SiHtml5 className="text-7xl" />
+              </div>
+              <div className="flex flex-col items-center justify-center text-xl md:text-3xl">
+                <h2>HTML</h2>
+              </div>
+            </div>
+          </div>
+
+          <div className="p-6 shadow-xl rounded-xl shadow-gray-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
                 <SiCss3 className="text-7xl" />
               </div>
               <div className="flex flex-col items-center justify-center text-xl md:text-3xl">
@@ -193,10 +217,10 @@ function Skills() {
           <div className="p-6 shadow-xl rounded-xl shadow-gray-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <SiHtml5 className="text-7xl" />
+                <SiSass className="text-7xl" />
               </div>
               <div className="flex flex-col items-center justify-center text-xl md:text-3xl">
-                <h2>HTML</h2>
+                <h2>Sass</h2>
               </div>
             </div>
           </div>
