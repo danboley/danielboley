@@ -33,6 +33,9 @@ import {
   SiAxios,
   SiNodedotjs,
   SiExpress,
+  SiGooglecloud,
+  SiVercel,
+  SiJsonwebtokens,
 } from "react-icons/si";
 
 function Skills() {
@@ -341,6 +344,7 @@ function Skills() {
               </div>
             </div>
           </div>
+
           <div className="p-6 shadow-xl rounded-xl shadow-gray-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
@@ -366,10 +370,32 @@ function Skills() {
           <div className="p-6 shadow-xl rounded-xl shadow-gray-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
+                <SiVercel className="text-7xl" />
+              </div>
+              <div className="flex flex-col items-center justify-center text-xl md:text-3xl">
+                <h2>Vercel</h2>
+              </div>
+            </div>
+          </div>
+
+          <div className="p-6 shadow-xl rounded-xl shadow-gray-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
                 <SiSquarespace className="text-7xl" />
               </div>
               <div className="flex flex-col items-center justify-center text-xl md:text-3xl">
                 <h2>Square-space</h2>
+              </div>
+            </div>
+          </div>
+
+          <div className="p-6 shadow-xl rounded-xl shadow-gray-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <SiGooglecloud className="text-7xl" />
+              </div>
+              <div className="flex flex-col items-center justify-center text-xl md:text-3xl">
+                <h2>Google Cloud</h2>
               </div>
             </div>
           </div>
@@ -398,6 +424,17 @@ function Skills() {
               </div>
               <div className="flex flex-col items-center justify-center text-xl md:text-3xl">
                 <h2>Axios</h2>
+              </div>
+            </div>
+          </div>
+
+          <div className="p-6 shadow-xl rounded-xl shadow-gray-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <SiJsonwebtokens className="text-7xl" />
+              </div>
+              <div className="flex flex-col items-center justify-center text-xl md:text-3xl">
+                <h2>JWTs</h2>
               </div>
             </div>
           </div>

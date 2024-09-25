@@ -39,7 +39,7 @@ function ShredderCorp() {
 
         <div className="mb-12 w-full">
           <div className="max-w-7xl mx-auto h-auto flex flex-col">
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-4 gap-x-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-y-4 gap-x-8">
               {projs}
             </div>
           </div>
@@ -61,7 +61,7 @@ function ShredderCorp() {
                 onClick={() => toggleAnswer(index)}
                 className="flex items-center justify-between w-full px-4 py-5 sm:p-6"
               >
-                <span className="flex text-lg font-semibold text-black">
+                <span className="flex text-left text-lg font-semibold text-black">
                   {faq.question}
                 </span>
                 <span>
